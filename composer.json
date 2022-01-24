@@ -1,0 +1,29 @@
+{
+    "name": "greezlu/ws-exception",
+    "description": "Localized Exception",
+    "type": "project",
+    "license": "MIT",
+    "homepage": "https://github.com/greezlu/ws-exception",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "greezlu",
+            "email": "greezlu@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "~7.4.0",
+        "greezlu/ws-logger": "*"
+    },
+    "keywords": [
+        "php",
+        "exception",
+        "php-exception",
+        "localized"
+    ],
+    "autoload": {
+        "psr-4": {
+            "WebServer\\Exceptions\\": "src/Exceptions"
+        }
+    }
+}
