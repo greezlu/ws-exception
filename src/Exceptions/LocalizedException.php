@@ -22,7 +22,7 @@ class LocalizedException extends Exception
     public function __construct(
         string $message = null,
         Throwable $previous = null,
-        int $code = 3
+        int $code = 2
     ) {
         if ($message) {
             $logger = new Logger();
