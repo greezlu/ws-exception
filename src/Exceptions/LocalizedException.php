@@ -1,7 +1,7 @@
 <?php
 /** Copyright github.com/greezlu */
 
-declare(strict_types = 1);
+declare(strict_types=1);
 
 namespace WebServer\Exceptions;
 
